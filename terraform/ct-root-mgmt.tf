@@ -4,7 +4,7 @@ module "ct-root-mgmt" {
   control_tower_parameters = {
     AccountEmail              = "devops-ct-rootmgmt@bwt3.com"
     AccountName               = "ct-root-mgmt"
-    ManagedOrganizationalUnit = "Governance"
+    ManagedOrganizationalUnit = "Governance (ou-yr92-3lnpifxb)"
     SSOUserEmail              = "devops-admin@BWT3.com"
     SSOUserFirstName          = "devops"
     SSOUserLastName           = "admin"

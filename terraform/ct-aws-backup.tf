@@ -4,7 +4,7 @@ module "ct-aws-backup" {
   control_tower_parameters = {
     AccountEmail              = "devops-ct-backup@bwt3.com"
     AccountName               = "ct-aws-backup"
-    ManagedOrganizationalUnit = "Governance"
+    ManagedOrganizationalUnit = "Governance (ou-yr92-3lnpifxb)"
     SSOUserEmail              = "devops-admin@BWT3.com"
     SSOUserFirstName          = "devops"
     SSOUserLastName           = "admin"

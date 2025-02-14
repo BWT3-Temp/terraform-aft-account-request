@@ -4,7 +4,7 @@ module "ct-ipam" {
   control_tower_parameters = {
     AccountEmail              = "devops-ct-ipam@bwt3.com"
     AccountName               = "ct-ipam"
-    ManagedOrganizationalUnit = "Governance"
+    ManagedOrganizationalUnit = "Governance (ou-yr92-3lnpifxb)"
     SSOUserEmail              = "devops-admin@BWT3.com"
     SSOUserFirstName          = "devops"
     SSOUserLastName           = "admin"
