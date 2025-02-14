@@ -15,7 +15,7 @@ module "ct-root-mgmt" {
     workload_environment   = "prod"
   }
 
-  change_management_parameters = {}
+  # change_management_parameters = {}
 
   custom_fields = {
     workload_environment   = "prod"

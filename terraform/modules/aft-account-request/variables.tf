@@ -21,12 +21,12 @@ variable "control_tower_parameters" {
   })
 }
 
-variable "change_management_parameters" {
-  type = object({
-    change_requested_by = string
-    change_reason       = string
-  })
-}
+# variable "change_management_parameters" {
+#   type = object({
+#     change_requested_by = string
+#     change_reason       = string
+#   })
+# }
 
 variable "account_tags" {
   type        = map(any)
